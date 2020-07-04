@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Client</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        #gameCanvas{
+            position:absolute;
+            left:0;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+<canvas onmousemove="mouseMove(event)" onmousedown="mouseDown()" onmouseUp="mouseUp()" id="gameCanvas" width="1000px" height="700px" tabindex="0"></canvas>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
